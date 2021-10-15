@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: "Scheherazade New";
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    height: 90px;
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+    margin: auto 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    padding: 33px 20px;
+}
+
+.header-right a {
+    padding: 20px;
+    color: white;
+    font-size: medium;
+}
+
+.header-right a:hover {
+    opacity: 0.8;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(force-majeure-00tlC0Clfrs-unsplash.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.main-title {
+    background-color: white;
+    opacity: 0.6;
+}
+
+.logo-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 650px;
+    height: 320px;
+}
+
+.main-wrapper h2 {
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: 7px;
+    margin-top: 200px;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 20px;
+}
+
+.about {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.about h2 {
+    font-weight: normal;
+    letter-spacing: 7px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.about p {
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+    margin: 50px;
+}
+
+.about img {
+    float: right;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
