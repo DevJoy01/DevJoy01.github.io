@@ -9,12 +9,18 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: roboto slab;
     align-items: center;
     justify-content: center;
 
 }
 
+/* Header */
+
+
+/* Akhir Header */
+
+/* Main */
 main {
 	padding-top: 40px;
 	text-align: center;
@@ -71,3 +77,13 @@ img {
 	transform: scale(1.1);
 
 }
+
+/* Akhir Main */
+
+/* Our teams */
+
+/* Akhir Our */
+
+/* Footer */
+
+/* Akhir Footer */
