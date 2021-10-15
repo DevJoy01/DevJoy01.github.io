@@ -14,47 +14,6 @@ body {
     justify-content: center;
 
 }
-/* Header */
-header {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUETr6QweX9nOD-KxqNFJmHdgF8V-Jbl-Ig&usqp=CAU");
-    width: 100%;
-    height: 400px;
-    position: relative;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-ul {
-    list-style-type: none;
-    float: right;
-    margin-top: 20px;
-}
-
-ul li {
-    display: inline-block;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    font-size: 15px;
-}
-ul li a:hover {
-    background-color: #fff;
-    color: black;
-    border-radius: 15px;
-}
-ul li.active a {
-    background-color: #fff;
-    color: black;   
-}
-
-.header1 {
-    max-width: 1200px;
-    margin: auto;
-}
 
 main {
 	padding-top: 40px;
