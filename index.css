@@ -34,7 +34,7 @@ header {
 }
 
 .header-right a {
-  padding: 15px;
+  padding: 16px;
   color: white;
   font-size: 16px;
   font-style: bold;
@@ -68,7 +68,7 @@ header {
   font-weight: normal;
   font-size: 36px;
   letter-spacing: 7px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   text-align: center;
   /*border-bottom: 0.5px solid black;*/
   padding-bottom: 20px;
@@ -101,6 +101,7 @@ header {
   height: 380px;
   position: relative;
 }
+
 .container-containt {
   width: 1000px;
   padding: 0 15px;
@@ -192,4 +193,113 @@ li {
 .footer-list li:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+  .header-right a {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container-containt {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container-containt1 {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .main-wrapper h2 {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 7px;
+    margin-top: 150px;
+    text-align: center;
+    /*border-bottom: 0.5px solid black;*/
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .top-wrapper {
+    display: none;
+  }
+
+  .main-title {
+    display: none;
+  }
+
+  .wrapper {
+    box-shadow: 0 2px 7px grey;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px 5px;
+    transition: transfrom 0.2%;
+    font-family: monospace;
+  }
+
+  .wrapper p {
+    display: none;
+  }
+
+  .about {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-weight: normal;
+    letter-spacing: 7px;
+    font-size: 18px;
+    margin-left: 50px;
+    /*text-decoration: underline;*/
+  }
+
+  .about p {
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    padding-right: 30px;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .footer-list {
+    display: none;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .about img {
+    float: right;
+    width: 320px;
+    height: 210px;
+    position: relative;
+  }
 }
