@@ -102,7 +102,7 @@ header {
   position: relative;
 }
 
-.container-containt {
+.card {
   width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
@@ -114,7 +114,7 @@ header {
   cursor: pointer;
 }
 
-.container-containt1 {
+.card1 {
   width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
@@ -195,7 +195,7 @@ li {
   cursor: pointer;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1000px) {
   .header-right a {
     display: none;
   }
@@ -204,9 +204,9 @@ li {
     width: 100%;
   }
 
-  .container-containt {
-    width: 100%;
-    padding: 0 15px;
+  .card {
+    width: 90%;
+    padding: 0 10px;
     margin: 0 auto;
     display: inline-block;
     flex-direction: row;
@@ -216,9 +216,9 @@ li {
     flex-wrap: wrap;
   }
 
-  .container-containt1 {
-    width: 100%;
-    padding: 0 15px;
+  .card1 {
+    width: 90%;
+    padding: 0 10px;
     margin: 0 auto;
     display: inline-block;
     flex-direction: row;
@@ -245,11 +245,17 @@ li {
   }
 
   .top-wrapper {
-    display: none;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    background-image: url(assets/images/force-majeure-00tlC0Clfrs-unsplash.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
   }
 
   .main-title {
-    display: none;
+    background-color: white;
+    opacity: 0.6;
   }
 
   .wrapper {
@@ -272,6 +278,7 @@ li {
   }
 
   .about h2 {
+    width: 90%;
     font-weight: normal;
     letter-spacing: 7px;
     font-size: 18px;
@@ -279,9 +286,9 @@ li {
   }
 
   .about p {
+    width: 90%;
     font-size: 14px;
-    width: 100%;
-    text-align: left;
+    text-align: justify;
     padding-right: 30px;
   }
 
@@ -290,15 +297,67 @@ li {
   }
 
   .footer-list {
-    display: none;
+    float: left;
+    color: white;
+    font-size: 18px;
+    margin-right: 50px;
   }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 670px) {
   .about img {
     float: right;
     width: 320px;
     height: 210px;
     position: relative;
+  }
+  .main-title {
+    display: none;
+  }
+
+  footer {
+    background-color: black;
+    opacity: 0.7;
+    height: 400px;
+    padding: 50px;
+  }
+  .about p {
+    width: 80%;
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 30px;
+  }
+
+  .footer-list {
+    font-size: 20px;
+  }
+
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+  .card {
+    width: 90%;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    width: 90%;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
   }
 }
