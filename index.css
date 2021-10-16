@@ -12,7 +12,7 @@ header {
 }
 
 .container {
-  width: 1150px;
+  width: 1000px;
   padding: 0 5px;
   margin: auto;
 }
@@ -34,7 +34,7 @@ header {
 }
 
 .header-right a {
-  padding: 20px;
+  padding: 15px;
   color: white;
   font-size: 16px;
   font-style: bold;
@@ -102,7 +102,7 @@ header {
   position: relative;
 }
 .container-containt {
-  width: 1150px;
+  width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
@@ -114,7 +114,7 @@ header {
 }
 
 .container-containt1 {
-  width: 1150px;
+  width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
