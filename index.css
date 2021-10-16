@@ -16,16 +16,13 @@ header {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-  
-}
-
-.container-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 30px;
     font-family: roboto slab;
     cursor: pointer;
+  
 }
 
 .logo {
