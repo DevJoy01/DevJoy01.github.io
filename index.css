@@ -78,6 +78,7 @@ header {
     text-align: center;
     border-bottom: 0.5px solid black;
     padding-bottom: 20px;
+    text-shadow: 2px 2px grey;
 }
 
 .about {
@@ -90,6 +91,7 @@ header {
     letter-spacing: 7px;
     font-size: 36px;
     margin-left: 50px;
+    text-shadow: 2px 2px grey;
 }
 
 .about p {
