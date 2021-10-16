@@ -1,0 +1,28 @@
+.footer {
+	height: 170px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+	color:white;
+	font-family: serif;
+
+}
+.container{
+	margin-top: 10px;
+	float: left;
+	width: 40%;
+	margin-left: 130px;
+}
+.card{
+	height: 60px;
+	width: 100%;
+	color:white;
+	background-color: black;
+	text-align: center;
+
+}
+.footer-item li{
+	padding-bottom: 5px;
+}
+li{
+	list-style: none;
+}
